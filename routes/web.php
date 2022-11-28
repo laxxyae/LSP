@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/admin/login', [AuthController::class, 'validateUser']);
 Route::post('/admin/logout', [AuthController::class, 'adminLogout']);
+Route::post('/siswa/login', [AuthController::class, 'validateSiswa']);
 Route::post('/siswa/logout', [AuthController::class, 'siswaLogout']);
 
 Route::get('/beranda', [HomeController::class, 'beranda'])->name('login');
@@ -42,6 +43,7 @@ Route::group(['prefix' => "permohonan-kompetensi"], function () {
     Route::post('/data', [PermohonanController::class, 'storeBioData']);
     Route::get('/bukti', [PermohonanController::class, 'bukti']);
     Route::get('/assesmen-mandiri', [PermohonanController::class, 'assesmenMandiri']);
+    Route::get('/persetujuan-assesmen', [PermohonanController::class, 'persetujuanAssesmen']);
 });
 
 Route::group(['middleware' => "auth:user"], function () {

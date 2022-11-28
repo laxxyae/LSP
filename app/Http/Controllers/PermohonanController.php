@@ -65,4 +65,9 @@ class PermohonanController extends Controller
             'unitKompetensis' => UnitKompetensi::latest()->get(),
         ]);
     }
+
+    public function persetujuanAssesmen()
+    {
+        return view('permohonan-kompetensi.persetujuan-assesmen');
+    }
 }

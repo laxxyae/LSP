@@ -18,7 +18,12 @@
                 <li>
                     <hr class="dropdown-divider" />
                 </li>
-                <li><a class="dropdown-item" href="/admin/logout">Logout</a></li>
+                <li> 
+                    <form method="POST" action="/admin/logout">
+                    @csrf
+                    <button class="dropdown-item" type="submit">Logout</button>
+                    </form>
+                </li>
             </ul>
         </li>
     </ul>
