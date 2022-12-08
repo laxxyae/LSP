@@ -51,6 +51,7 @@ Route::group(['middleware' => "auth:user"], function () {
         return view('layouts.dashboard');
     });
 
+    Route::resource('/dashboard-menu', DashboardMenuController::class)->except('show');
     Route::resource('/mata-pelajaran', MataPelajaranController::class)->except('show');
     Route::resource('/jenis-standar', JenisStandarController::class)->except('show');
     Route::resource('/peserta', PesertaController::class)->except('show');

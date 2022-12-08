@@ -30,21 +30,21 @@
                                 </td>
                                 <td>Pemrograman Dasar</td>
                                 <td style="text-align: center;">10</td>
-                                <td>Klaster</td>
+                                <td class="text-center">Klaster</td>
                             <tr>
                                 <td align="center">
                                     <a href="/detail2" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
                                 </td>
                                 <td>Pemrograman Web</td>
                                 <td style="text-align: center;">12</td>
-                                <td>Klaster</td>
+                                <td class="text-center">Klaster</td>
                             <tr>
                                 <td align="center">
                                     <a href="/detail3" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
                                 </td>
                                 <td>Pemrograman Berorientasi Objek</td>
                                 <td style="text-align: center;">13</td>
-                                <td>Klaster</td>
+                                <td class="text-center">Klaster</td>
                             </tr>
                         </tbody>
                     </table>

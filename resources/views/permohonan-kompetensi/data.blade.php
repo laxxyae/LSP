@@ -96,8 +96,9 @@
                 </tr>
             @endforeach
         </table>
-    @endif
-    <div class="text-end">
+        <div class="text-end">
             <button type="submit" class="btn btn-primary my-3" href="/bukti">Selanjutnya</button>
+            
         </div>
+    @endif
 @endsection

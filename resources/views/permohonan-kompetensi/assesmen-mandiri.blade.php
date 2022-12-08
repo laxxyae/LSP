@@ -37,4 +37,7 @@
             </table>
         </div>
     @endforeach
+    <div class="text-end">
+        <button type="submit" class="btn btn-primary btn-sm mt-3">Submit</button>
+    </div>
 @endsection

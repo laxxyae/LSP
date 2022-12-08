@@ -71,7 +71,7 @@ class SubUnitKompetensiController extends Controller
 
         Alert::success("Berhasil", "Berhasil Menambahkan Sub Unit Kompetensi");
 
-        return redirect('/unit-kompetensi/' . $unitKompetensi->kode_unit . '/sub');
+        return redirect('/unit-kompetensi' . $unitKompetensi->kode_unit . '/sub');
     }
 
     /**
